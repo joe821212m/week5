@@ -287,7 +287,9 @@ font-style: 14px;
   .main h2{
     font-size:40px;
   }
- 
+ .main p{
+    font-size:14px;
+ }
   .righthand{
     width: 550px;
     float:none;
