@@ -310,21 +310,5 @@ font-style: 14px;
 .header{
   height: auto;
 }
-.header h1{
-    float: none;
-    display:block;
-    font-weight: bold;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .menu{
-    margin:0px;
-    width:100%;
-  }
-  .menu li a{
-    display: block;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    line-height:5px;
-  }
+
 }
