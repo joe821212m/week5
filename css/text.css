@@ -80,7 +80,7 @@ body {
   width: 560px;
   float: left;
   margin-top: 35px;
-  padding-left: 100px;
+ 
 }
 a{
   text-decoration: none;
@@ -161,7 +161,7 @@ em {
     font-style: normal;
 }
 .main{
- margin-top: 25px;
+margin-top: 25px;
 margin-right: -65px;
 background-color: white;
 border-style:solid;
@@ -175,6 +175,7 @@ float:left;
 display: block;
 }
 .picture{
+  
   float:left;
   display:block;
 
@@ -189,10 +190,11 @@ strong{
 .picture p{
   float: right;
   font-size: 14px;
-  padding-right:15px;
   line-height:1.6;
 }
 .righthand{
+
+  padding-left: 15px;
   float: right;
 }
 .righthand h2{
@@ -287,9 +289,9 @@ font-style: 14px;
   .main h2{
     font-size:40px;
   }
- .main p{
-    font-size:14px;
- }
+  .main p{
+    font-size:16px;
+  }
   .righthand{
     width: 550px;
     float:none;
@@ -310,5 +312,52 @@ font-style: 14px;
 .header{
   height: auto;
 }
-
+.header h1{
+  margin-top:5px;
+}
+.header ul li{
+  width:425px;
+  height:auto;
+  float:left; 
+}
+.menu li {
+  width:90%;
+  float:none; /* float style */
+  margin:0 auto 10px auto;  
+  border-radius:5px;
+  background:#01a5ca;
+  border-right:1px solid #fff;
+}
+.menu li a{
+  width:100%;
+  color:#fff;
+  display:block;
+  height:30px;
+  line-height:30px;
+  text-decoration:none;
+  font-weight:bold;
+  color:white;
+}
+.text{
+  width:auto;
+  padding-right:10px;
+}
+.contain{
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }  
+  .main{
+    width:100%;
+    padding-left:0px;
+  }
+  .picture{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  .righthand{
+    width:100%;  
+  }
 }
