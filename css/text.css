@@ -161,21 +161,14 @@ em {
     font-style: normal;
 }
 .main{
-margin-top: 25px;
-margin-right: -65px;
-background-color: white;
-border-style:solid;
-border-width:1px;
-border-color:#EAEAEA;
-padding-top:20px;
-padding-bottom:50px;
-padding-left:62px;
-padding-right: 83.4px;
-float:left;
-display: block;
+margin-top: 20px;
+padding: 25px 30px 20px 44px;
+box-shadow: 0px 0px 5px #dbdbdb;
+background: #ffffff;
+overflow: hidden;
 }
 .picture{
-  
+   width:555px;
   float:left;
   display:block;
 
@@ -193,9 +186,9 @@ strong{
   line-height:1.6;
 }
 .righthand{
-
+width:180px;
   padding-left: 15px;
-  float: right;
+  float: left;
 }
 .righthand h2{
   font-size: 28px;
@@ -225,7 +218,7 @@ strong{
   border-color:white;
 }
 .footer{
-  padding-top: 450px;
+ 
 margin-top: 25px;
 margin-bottom: 25px;
  text-align: center;
