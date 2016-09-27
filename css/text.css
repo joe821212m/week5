@@ -53,7 +53,7 @@ body {
   position: relative;
   margin: 0 auto;
   width: 850px;
-  height: 1200px;
+
   text-align: left;
   margin-top: 25px;
 
@@ -161,14 +161,13 @@ em {
     font-style: normal;
 }
 .main{
-margin-top: 20px;
-padding: 25px 30px 20px 44px;
-box-shadow: 0px 0px 5px #dbdbdb;
-background: #ffffff;
-overflow: hidden;
+    padding: 25px 30px 20px 44px;
+    box-shadow: 0px 0px 5px #dbdbdb;
+    background: #ffffff;
+    overflow: hidden;
 }
 .picture{
-   width:555px;
+  width:650px;
   float:left;
   display:block;
 
@@ -181,20 +180,23 @@ strong{
   font-weight: bold;
 }
 .picture p{
+  width: 350px;
   float: right;
   font-size: 14px;
   line-height:1.6;
 }
+
 .righthand{
-width:180px;
+  width: 180px;
   padding-left: 15px;
   float: left;
 }
-.righthand h2{
+
+.righthandone h2{
   font-size: 28px;
   font-weight: normal;
 }
-.righthand a{
+.righthandone a{
    font-size: 12px;
 }
 .button{
@@ -211,6 +213,9 @@ width:180px;
   appearance: none;
   border: none;
 }
+.clear{
+   clear: both;
+}
 .try{
   width: 150px;
   height: 30px;
@@ -218,10 +223,10 @@ width:180px;
   border-color:white;
 }
 .footer{
- 
+  padding-top: 4250px;
 margin-top: 25px;
 margin-bottom: 25px;
- text-align: center;
+ 
 }
 .footer p{
   text-align: center;
